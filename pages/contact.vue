@@ -15,7 +15,7 @@
           directions, the password, and the link to the piece.
         </p>
 
-        <p><a href="">Register</a></p>
+        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSex81cBkCbjkx-igk6cf8BW9Brc1Y6Bqfsuel8NUiw1ppELpQ/viewform">Register here</a></p>
       </div>
     </main>
   </div>
