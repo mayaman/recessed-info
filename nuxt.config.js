@@ -12,7 +12,11 @@ export default {
             { name: 'format-detection', content: 'telephone=no' }
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+            { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true },
+            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap', crossorigin: true }
+
         ],
         script: [{
             src: "https://code.jquery.com/jquery-3.5.1.min.js"
