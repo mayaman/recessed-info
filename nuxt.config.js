@@ -1,7 +1,7 @@
 export default {
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'Recessed',
+        title: '✧ Recessed ✧',
         htmlAttrs: {
             lang: 'en'
         },
@@ -12,7 +12,7 @@ export default {
             { name: 'format-detection', content: 'telephone=no' }
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            { rel: 'icon', type: 'image/x-icon', href: '/white.jpg' },
             { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
             { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true },
             { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap', crossorigin: true }

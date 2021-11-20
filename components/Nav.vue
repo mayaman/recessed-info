@@ -14,24 +14,33 @@
 <style scoped>
 nav {
   justify-content: space-between;
-  align-content: center;
-  color: black;
-  text-align: center;
+    align-content: center;
+    color: black;
+    display: block;
+    width: 50%;
+    margin: auto;
+    text-align: center;
 }
 
 ul {
   list-style: none;
   display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+
   font-family: sans-serif;
   font-size: 18px;
   line-height: 24px;
-  justify-content: center;
-  text-align: center;
+
+  
+  padding: 0px;
+  width: 100%;
   /* margin: 50px 0px; */
 }
 
 li {
-  padding: 0px 50px;
+
 }
 
 a {

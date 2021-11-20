@@ -1,53 +1,57 @@
 <template>
-  <!-- <Tutorial/> -->
   <div>
-    <header>
-      <h1 class="cursive">Recessed</h1>
-      <h2>Choreographing the browser, by Heidi Latsky and Maya Man</h2>
-    </header>
-    <!-- <hr /> -->
+    <Header></Header>
     <Nav></Nav>
     <main>
+            <img
+        class="preview"
+        src="https://cdn.shopify.com/s/files/1/0068/0486/5082/files/01_Donald_1024x1024.gif?v=1627071379"
+        alt="Four pop up windows on a desktop featuring Donald moving outside"
+      />
+      <br>
       <div class="copy">
-        <p>How do we translate performance from the stage to the screen?</p>
         <p>
-          Frustrated by the limitations of performances placed on platforms such
-          as YouTube or Zoom, together artists Heidi Latsky and Maya Man decided
-          that rather than translating from stage to screen, they would instead
-          create a dance experience that, from the beginning, was choreographed
-          to be viewed on a computer screen.
+          The dancers, agentically choosing the time and location of their
+          recording sessions, composed moments to consider privacy, solitude,
+          and secrecy. Instead of being on display in front of the camera, the
+          dancers are performing for and with themselves.The kaleidoscopic
+          placement of the pop-up windows, however, insists on the viewer’s
+          access to the entirety of their screens, exploring simultaneously the
+          intensely singular and plural aspects of the dancers’ performances.
         </p>
         <p>
-          The result is <span class="italic">Recessed</span>, a dance-driven,
-          interactive performance staged in the Internet browser, the space
-          through which most of our interactions occurred over the past year.
-          Clicking on a dancer featured on the project website’s main page
-          reveals an arrangement of pop up windows. While the dancer’s photos
-          are pulled from past live performances, the video clips triggered by
-          this interaction showcase each dancer moving in private while in their
-          own home or neighborhood. Viewers navigate through the work at their
-          own pace and in their own chosen order. With over fifteen unique pop
-          up window experiences to discover (at least three per dancer), the
-          piece is never exactly the same twice.
+          Artists Sabrina Bennette, Desmond Cadogan, Meredith Fages, Jillian
+          Hollis, Donald Lee, Claude-Andrée Louissaint, and Sora Sol recorded
+          dances for the camera. The resultantly mediated bodies are distributed
+          across a desktop screen in carefully choreographed patterns, a formal
+          variating designed collaboratively by Man and Latsky.
         </p>
         <p>
-          <span class="italic">Recessed</span> runs on custom software developed
-          by Maya Man. The software gives the artists full choreographic control
-          over various aspects of the pop up windows including their size,
-          location, transitions, and timing. Throughout their collaboration, Man
-          and Latsky often watched footage sent over by the dancer over a video
-          call and discussed how specific sections of a clip might be staged.
-          Together, they worked to develop a distinct point of view on each
-          dancer. In many ways, the production process involved qualities
-          required for both choreographing a performance and editing a video
-          piece. As the artists co-choreographed, they continually tinkered with
-          timing, transitions, and placement in order to maximize the emotional
-          power of each performer.
+          The dancer’s photos are culled from past live performances, but the
+          video clips triggered by interaction showcase each dancer moving in
+          private while in their own home or neighborhood. Viewers navigate the
+          work at their own pace, and in their own chosen order. With over
+          fifteen unique pop up window experiences to discover (and at least
+          three per dancer), the piece is never exactly the same twice.
         </p>
         <p>
-          The project currently features dancers Sabrina Bennette, Desmond
-          Cadogan, Jillian Hollis, Donald Lee, Sora Sol who represent a range of
-          movement backgrounds and abilities.
+          Recessed runs on custom software developed by Man, which gave the
+          artists full choreographic control over various aspects of the pop up
+          windows including their size, location, transitions, and timing.
+          Throughout their collaboration, Man and Latsky considered footage sent
+          over by the dancer and discussed how specific sections of a clip might
+          be staged. Together, they worked to develop a distinct point of view
+          for each dancer. The production process involved both choreographic
+          and video-editing techniques, with both Man and Latsky enacting
+          creative decisions pertaining to timing, transitions, and placement so
+          as to maximize the emotional power of each performer.
+        </p>
+        <p>
+          Recessed is in conversation with other artists’ work in the genres of Post-Internet Art, Movement and Computation, and Desktop Cinema. It seeks to
+          re-mix and re-kindle browser-based explorations of the early 2000s
+          (for example, the web marketing campaign for the 2000 film Requiem for
+          a Dream) with an emphasis on contemporary considerations of
+          embodiment, ability, intersectionality and performance.
         </p>
       </div>
     </main>

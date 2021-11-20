@@ -1,31 +1,45 @@
 <template>
-  <!-- <Tutorial/> -->
   <div>
-    <header>
-      <h1 class="cursive">Recessed</h1>
-      <h2>Choreographing the browser, by Heidi Latsky and Maya Man</h2>
-    </header>
+    <Header></Header>
+
     <Nav></Nav>
     <main>
-      <iframe
-        src="https://player.vimeo.com/video/561366546?h=be1b99314c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-        width="840"
-        height="525"
-        frameborder="0"
-        allow="autoplay; fullscreen; picture-in-picture"
-        allowfullscreen
-        title="Recessed (preview)"
-      ></iframe>
-<br>
-<br></br>
-      <div class="copy">
-        <span> Recessed </span>
-        explores the emotional impact of engaging with the browser through a
-        series of movement-driven vignettes. Choreographed pop-up windows in
-        various configurations capture the intimacy of bodies moving within a
-        virtual space. The site, custom-coded by Man, layers recorded
-        performances that highlight diverse narratives in motion.
+      <div style="padding: 62.5% 0 0 0; position: relative">
+        <iframe
+          src="https://player.vimeo.com/video/561366546?h=be1b99314c&title=0&autoplay=1&byline=0&portrait=0"
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
+
+      <br />
+      <div class="copy">
+        <p>
+          <span class="italic"> Recessed</span>, by Heidi Latsky and Maya Man,
+          explores the emotional potential of engaging with the web browser
+          through a series of movement-driven vignettes.
+        </p>
+        <p>
+          Pop-up windows choreographed to appear in specific configurations
+          capture the intimacy of bodies moving within a virtual space. The
+          site, a custom-coded movement palimpsest by Man, layers recorded
+          performances to highlight diverse narratives in motion.
+        </p>
+      </div>
+
+      <br />
+      <!-- <img
+        class="preview"
+        src="https://cdn.shopify.com/s/files/1/0068/0486/5082/files/05_Sabrina_1024x1024.gif?v=1627071530"
+        alt="Sabrina moving in a large browser window on screen"
+      />
+      <img
+        class="preview"
+        src="https://storage.googleapis.com/recessed-assets/documentation/02_Jillian.gif"
+        alt="Five pop up windows featuring Jillian dancing outside under a blue sky"
+      /> -->
     </main>
   </div>
 </template>
@@ -40,7 +54,7 @@ export default {};
 body {
   padding: 0px;
   font-family: sans-serif;
-  font-size: 18px; 
+  font-size: 18px;
   line-height: 24px;
   margin: 0px;
 }
@@ -60,7 +74,7 @@ body {
 main {
   padding: 50px 0px;
   text-align: center;
-  width: 65%;
+  width: 50%;
   margin: auto;
   display: block;
 }
@@ -99,15 +113,20 @@ iframe {
 .copy {
   text-align: left;
   width: 100%;
-  max-width: 840px;
   margin: auto;
   display: block;
+}
+
+img.preview {
+  max-width: 100%;
+  min-width: 90%;
+  display: block;
+  margin: auto;
 }
 
 a {
   color: black;
 }
-
 
 a:hover {
   color: blue;
