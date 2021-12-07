@@ -23,8 +23,8 @@
         <p>
           To learn more about Recessed, for media content, or to get in contact
           with the artists, please contact
-          <a href="mailto:heidilatskydance@gmail.com"
-            >heidilatskydance@gmail.com</a
+          <a href="mailto:heidi@heidilatskydance.org"
+            >heidi@heidilatskydance.org</a
           >.
         </p>
       </div>
