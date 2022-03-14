@@ -1,7 +1,7 @@
 export default {
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: '𝓡𝓮𝓬𝓮𝓼𝓼𝓮𝓭.info',
+        title: 'recessed.info',
         htmlAttrs: {
             lang: 'en'
         },
