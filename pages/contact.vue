@@ -1,5 +1,7 @@
 <template>
   <div>
+        <Announcement></Announcement>
+
     <Header></Header>
     <Nav></Nav>
     <main>

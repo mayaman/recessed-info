@@ -1,5 +1,7 @@
 <template>
   <div>
+    <Announcement></Announcement>
+
     <header>
       <h1 class="cursive">Recessed</h1>
     </header>
@@ -7,8 +9,6 @@
     <main>
       <div class="copy">
         <ul class="artists">
-          
-
           <li class="artist">
             <div class="flex-left">
               <img
@@ -264,7 +264,7 @@ export default {};
 <style scoped>
 ::selection {
   color: white;
-  background: #6289FB;
+  background: #6289fb;
 }
 
 ul.artists {

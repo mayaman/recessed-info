@@ -1,14 +1,16 @@
 <template>
   <div>
+    <Announcement></Announcement>
+
     <Header></Header>
     <Nav></Nav>
     <main>
-            <img
+      <img
         class="preview"
         src="https://cdn.shopify.com/s/files/1/0068/0486/5082/files/01_Donald_1024x1024.gif?v=1627071379"
         alt="Four pop up windows on a desktop featuring Donald moving outside"
       />
-      <br>
+      <br />
       <div class="copy">
         <p>
           The dancers, agentically choosing the time and location of their
@@ -47,11 +49,12 @@
           as to maximize the emotional power of each performer.
         </p>
         <p>
-          Recessed is in conversation with other artists’ work in the genres of Post-Internet Art, Movement and Computation, and Desktop Cinema. It seeks to
-          re-mix and re-kindle browser-based explorations of the early 2000s
-          (for example, the web marketing campaign for the 2000 film Requiem for
-          a Dream) with an emphasis on contemporary considerations of
-          embodiment, ability, intersectionality and performance.
+          Recessed is in conversation with other artists’ work in the genres of
+          Post-Internet Art, Movement and Computation, and Desktop Cinema. It
+          seeks to re-mix and re-kindle browser-based explorations of the early
+          2000s (for example, the web marketing campaign for the 2000 film
+          Requiem for a Dream) with an emphasis on contemporary considerations
+          of embodiment, ability, intersectionality and performance.
         </p>
       </div>
     </main>
