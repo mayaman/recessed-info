@@ -49,10 +49,10 @@ a {
 }
 
 a:hover {
-  color: blue;
+  color: #6289FB;
 }
 
 a.nuxt-link-exact-active {
-  color: blue;
+  color: #6289FB;
 }
 </style>

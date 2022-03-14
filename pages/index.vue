@@ -1,5 +1,7 @@
 <template>
   <div>
+    <Announcement></Announcement>
+
     <Header></Header>
 
     <Nav></Nav>
@@ -59,6 +61,10 @@ body {
   margin: 0px;
 }
 
+h3 {
+  font-weight: normal;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -107,7 +113,7 @@ iframe {
 
 ::selection {
   color: white;
-  background: blue;
+  background: #6289fb;
 }
 
 .copy {
@@ -129,6 +135,6 @@ a {
 }
 
 a:hover {
-  color: blue;
+  color: #6289fb;
 }
 </style>

@@ -264,7 +264,7 @@ export default {};
 <style scoped>
 ::selection {
   color: white;
-  background: blue;
+  background: #6289FB;
 }
 
 ul.artists {
