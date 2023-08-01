@@ -1,7 +1,6 @@
 <template>
   <div>
     <h3 class="announcement">
-      *NOW SHOWING THROUGH MARCH 31*
       <br />
       <br />
       Visit
